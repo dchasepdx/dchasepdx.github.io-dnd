@@ -1,0 +1,54 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background: url(parchment.jpg)no-repeat center center;
+  background-size: cover;
+}
+
+.header {
+  background-color: #1d2911;
+  height: 150px;
+  display: flex;
+  align-items: center;
+
+
+}
+.header h1{
+  color: #f2e4ca;
+  text-align: center;
+
+}
+.navbar {
+  border-radius: 0;
+}
+
+#stnd {
+  background: url(stnd.jpg)top right;
+  width: 940px;
+  overflow: hidden;
+  margin: 50px auto;
+
+
+}
+.feature h2 {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 0;
+
+}
+.feature p{
+  float: left;
+  color: white;
+}
+.pic {
+  height: 200px;
+  width: 940px;
+}
+
+#buy {
+  background: url(buy.jpg)top left;
+  width: 940px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+#buy
