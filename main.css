@@ -39,6 +39,7 @@ html, body {
 .feature p{
   float: left;
   color: white;
+  background-color: rgba(0,0,0,0.5);
 }
 .pic {
   height: 200px;
@@ -51,4 +52,38 @@ html, body {
   overflow: hidden;
   margin: 50px auto;
 }
-#buy
+#about {
+  background: url(about.jpg)top left;
+  width: 940px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+img {
+  height: 400px;
+  width: 322px;
+}
+select{
+  display: inline;
+}
+
+.col-md-4 h2 {
+  margin: 0;
+}
+
+.choices {
+  height: 400px;
+  width: 322px;
+  border: 1px solid black;
+}
+
+.equipment-list {
+  height: 600px;
+  width: 322px;
+  border: 1px solid black;
+}
+
+.footer {
+  background-color: #1d2911;
+  color: #f2e4ca;
+  height: 30px;
+}
