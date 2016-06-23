@@ -3,8 +3,19 @@ html, body {
   margin: 0;
   background: url(parchment.jpg)no-repeat center center;
   background-size: cover;
+  height: 100%;
 }
-
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+#header {
+  padding: 10px;
+}
+#body {
+  padding: 10px
+  padding-bottom: 30px;
+}
 .header {
   background-color: #1d2911;
   height: 150px;
@@ -86,4 +97,5 @@ select{
   background-color: #1d2911;
   color: #f2e4ca;
   height: 30px;
+  clear: both;
 }
