@@ -91,6 +91,7 @@ select{
   height: 600px;
   width: 322px;
   border: 1px solid black;
+  margin-right: 0;
 }
 .bard {
   margin-top:0;

@@ -79,14 +79,10 @@ $(document).ready(function() {
         $('.wizard').addClass('show');
         $('.wizard').prependTo($('.choices'));
       break;
-
-
-
-
-
-
     }
   });
+  
+
 
 
   /*bug testing
