@@ -6,4 +6,3 @@ var acolyte = [
   "A set of common clothes",
   "A pouch containing 15 gp"
 ];
-alert(acolyte);
