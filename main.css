@@ -92,6 +92,9 @@ select{
   width: 322px;
   border: 1px solid black;
 }
+.bard {
+  margin-top:0;
+}
 
 .footer {
   background-color: #1d2911;
