@@ -1,100 +1,100 @@
 var acolyte = [
   "A holy symbol",
-  "A prayer book or prayer wheel",
-  "5 sticks of incense,",
-  "vestments",
-  "A set of common clothes",
-  "A pouch containing 15 gp"
+  " a prayer book or prayer wheel",
+  " 5 sticks of incense,",
+  " vestments",
+  " a set of common clothes",
+  " a pouch containing 15 gp"
 ];
 
 var charlatan = [
   "A set of fine clothes",
-  "A disguise kit",
-  "Tools of the con of your choice",
-  "A pouch containing 15 gp"
+  " a disguise kit",
+  " tools of the con of your choice",
+  " a pouch containing 15 gp"
 ];
 
 var criminal = [
   "A crowbar",
-  "A set of dark common clothes including a hood",
-  "A pouch containing 15 gp"
+  " a set of dark common clothes including a hood",
+  " a pouch containing 15 gp"
 ];
 
 var entertainer = [
   "A musical instrument of your choice",
-  "The favor of an admirer",
-  "A costume",
-  "A pouch containing 15 gp"
+  " the favor of an admirer",
+  " a costume",
+  " a pouch containing 15 gp"
 ];
 
-var folk hero = [
+var folkhero = [
   "A set of artisan's tools",
-  "A shovel",
-  "An iron pot",
-  "A set of common clothes",
-  "A pouch containing 15 gp"
+  " a shovel",
+  " an iron pot",
+  " a set of common clothes",
+  " a pouch containing 15 gp"
 ];
 
-var guild artisan = [
+var guildartisan = [
   "A set of artisan's tools",
-  "A letter of introduction from your guild",
-  "A set of traveler's clothes",
-  "A pouch containing 15 gp"
+  " a letter of introduction from your guild",
+  " a set of traveler's clothes",
+  " a pouch containing 15 gp"
 ];
 
 var hermit = [
   "A scroll case stuffed full of notes",
-  "A winter blanket",
-  "A set of common clothes",
-  "An herbalism kit",
-  "5 gp"
+  " a winter blanket",
+  " a set of common clothes",
+  " an herbalism kit",
+  " 5 gp"
 ];
 
 var noble = [
   "A set of fine clothes",
-  "A signet ring",
-  "A scroll of pedigree",
-  "A purse containing 25 gp"
+  " a signet ring",
+  " a scroll of pedigree",
+  " a purse containing 25 gp"
 ];
 
 var outlander = [
   "A staff",
-  "A hunting trap",
-  "A trophy from an animal you killed",
-  "A set of traveler's clothes",
-  "A pouch containing 10 gp"
+  " a hunting trap",
+  " a trophy from an animal you killed",
+  " a set of traveler's clothes",
+  " a pouch containing 10 gp"
 ];
 
 var sage = [
   "A bottle of black ink",
-  "A quill",
-  "A small knife",
-  "A letter from a dead colleague posing a question you have not yet been able to answer",
-  "A set of common clothes",
-  "A pouch containing 10 gp"
+  " a quill",
+  " a small knife",
+  " a letter from a dead colleague posing a question you have not yet been able to answer",
+  " a set of common clothes",
+  " a pouch containing 10 gp"
 ];
 
 var sailor = [
   "A belaying pin",
-  "50 feet of silk rope",
-  "A lucky charm",
-  "A set of common clothes",
-  "a pouch containing 10 gp"
+  " 50 feet of silk rope",
+  " a lucky charm",
+  " a set of common clothes",
+  " a pouch containing 10 gp"
 ];
 
 var soldier = [
   "An insignia of rank",
-  "A trophy taken from a fallen enemy",
-  "A set of bone dice or deck of cards",
-  "A set of common clothes",
-  "A pouch containing 10 gp"
+  " a trophy taken from a fallen enemy",
+  " a set of bone dice or deck of cards",
+  " a set of common clothes",
+  " a pouch containing 10 gp"
 ];
 
 var urchin = [
   "A small knife",
-  "A map of the city you grew up in",
-  "A pet mouse",
-  "A token to remember your parents by",
-  "A set of common clothes",
-  "A pouch containing 10 gp"
+  " a map of the city you grew up in",
+  " a pet mouse",
+  " a token to remember your parents by",
+  " a set of common clothes",
+  " a pouch containing 10 gp"
 ];

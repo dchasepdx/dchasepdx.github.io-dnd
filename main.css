@@ -88,14 +88,15 @@ select{
 }
 
 .equipment-list {
-  height: 600px;
+  height: 400px;
   width: 322px;
   border: 1px solid black;
-  margin-right: 0;
+
 }
+/*don't think I need this
 .bard {
   margin-top:0;
-}
+}*/
 
 .footer {
   background-color: #1d2911;
