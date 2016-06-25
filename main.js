@@ -12,28 +12,28 @@ $(document).ready(function() {
         $('.classes').addClass('hidden');
         $('.barbarian').removeClass('hidden');
         $('.barbarian').addClass('show');
-        $('.default').text("An explorer's pack and four javelins");
+        $('.default').text(" An explorer's pack and four javelins");
         break;
       case "bard.png":
         $('.classes').addClass('hidden');
         $('.bard').removeClass('hidden');
         $('.bard').addClass('show');
         $('.bard').prependTo($('.choices'));
-        $('.default').text("leather armor and a dagger");
+        $('.default').text(" leather armor and a dagger");
         break;
       case "cleric.png":
         $('.classes').addClass('hidden');
         $('.cleric').removeClass('hidden');
         $('.cleric').addClass('show');
         $('.cleric').prependTo($('.choices'));
-        $('.default').text("A shield and a holy symbol");
+        $('.default').text(" A shield and a holy symbol");
         break;
       case "druid.png":
         $('.classes').addClass('hidden');
         $('.druid').removeClass('hidden');
         $('.druid').addClass('show');
         $('.druid').prependTo($('.choices'));
-        $('.default').text("Leather armor, an explorer's pack, and a druidic focus");
+        $('.default').text( " Leather armor, an explorer's pack, and a druidic focus");
         break;
       case "fighter.png":
         $('.classes').addClass('hidden');
@@ -46,49 +46,49 @@ $(document).ready(function() {
         $('.monk').removeClass('hidden');
         $('.monk').addClass('show');
         $('.monk').prependTo($('.choices'));
-        $('.default').text("10 darts");
+        $('.default').text(" 10 darts");
         break;
       case "paladin.png":
         $('.classes').addClass('hidden');
         $('.paladin').removeClass('hidden');
         $('.paladin').addClass('show');
         $('.paladin').prependTo($('.choices'));
-        $('.default').text("Chain mail and a holy symbol");
+        $('.default').text(" Chain mail and a holy symbol");
         break;
       case "ranger.png":
         $('.classes').addClass('hidden');
         $('.ranger').removeClass('hidden');
         $('.ranger').addClass('show');
         $('.ranger').prependTo($('.choices'));
-        $('.default').text("A longbow and a quiver of 20 arrows");
+        $('.default').text(" A longbow and a quiver of 20 arrows");
         break;
       case "rogue.png":
         $('.classes').addClass('hidden');
         $('.rogue').removeClass('hidden');
         $('.rogue').addClass('show');
         $('.rogue').prependTo($('.choices'));
-        $('.default').text("Leather armor, two daggers, and thieves' tools");
+        $('.default').text(" Leather armor, two daggers, and thieves' tools");
         break;
       case "sorcerer.png":
         $('.classes').addClass('hidden');
         $('.sorcerer').removeClass('hidden');
         $('.sorcerer').addClass('show');
         $('.sorcerer').prependTo($('.choices'));
-        $('.default').text("Two daggers");
+        $('.default').text(" Two daggers");
         break;
       case "warlock.png":
         $('.classes').addClass('hidden');
         $('.warlock').removeClass('hidden');
         $('.warlock').addClass('show');
         $('.warlock').prependTo($('.choices'));
-        $('.default').text("leather armor, any simple weapon, and two daggers");
+        $('.default').text(" leather armor, any simple weapon, and two daggers");
         break;
       case "wizard.png":
         $('.classes').addClass('hidden');
         $('.wizard').removeClass('hidden');
         $('.wizard').addClass('show');
         $('.wizard').prependTo($('.choices'));
-        $('.default').text("A spellbook");
+        $('.default').text(" A spellbook");
       break;
     }
   });
@@ -142,20 +142,20 @@ $(document).ready(function() {
   $('input[name=equipment1]:radio').on('change',function() {
     var choice1 = $(this).val();
     //alert(choice1); bug testing
-    $('.choice1').text(choice1);
+    $('.choice1').text(" " + choice1);
 
   });
   $('input[name=equipment2]:radio').on('change', function() {
     var choice2 = $(this).val();
-    $('.choice2').text(choice2);
+    $('.choice2').text(" " + choice2);
   });
   $('input[name=equipment3]:radio').on('change',function () {
     var choice3 = $(this).val();
-    $('.choice3').text(choice3);
+    $('.choice3').text(" " + choice3);
   });
   $('input[name=equipment4]:radio').on('change', function() {
     var choice4 = $(this).val();
-    $('.choice4').text(choice4);
+    $('.choice4').text(" " + choice4);
   });
 
   $('#class-drop').on('change', function() {
@@ -168,7 +168,7 @@ $(document).ready(function() {
     var equipmentList = $('.equip-show, .default, .choice1, .choice2, .choice3, .choice4').text();
     var character = $('#characterName').val();
     localStorage.setItem(character, equipmentList);
-    
+
   });
 
 

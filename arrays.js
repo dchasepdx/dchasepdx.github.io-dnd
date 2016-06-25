@@ -4,27 +4,27 @@ var acolyte = [
   " 5 sticks of incense,",
   " vestments",
   " a set of common clothes",
-  " a pouch containing 15 gp"
+  " a pouch containing 15 gp "
 ];
 
 var charlatan = [
   "A set of fine clothes",
   " a disguise kit",
   " tools of the con of your choice",
-  " a pouch containing 15 gp"
+  " a pouch containing 15 gp "
 ];
 
 var criminal = [
   "A crowbar",
   " a set of dark common clothes including a hood",
-  " a pouch containing 15 gp"
+  " a pouch containing 15 gp "
 ];
 
 var entertainer = [
   "A musical instrument of your choice",
   " the favor of an admirer",
   " a costume",
-  " a pouch containing 15 gp"
+  " a pouch containing 15 gp "
 ];
 
 var folkhero = [
@@ -32,14 +32,14 @@ var folkhero = [
   " a shovel",
   " an iron pot",
   " a set of common clothes",
-  " a pouch containing 15 gp"
+  " a pouch containing 15 gp "
 ];
 
 var guildartisan = [
   "A set of artisan's tools",
   " a letter of introduction from your guild",
   " a set of traveler's clothes",
-  " a pouch containing 15 gp"
+  " a pouch containing 15 gp "
 ];
 
 var hermit = [
@@ -47,14 +47,14 @@ var hermit = [
   " a winter blanket",
   " a set of common clothes",
   " an herbalism kit",
-  " 5 gp"
+  " 5 gp "
 ];
 
 var noble = [
   "A set of fine clothes",
   " a signet ring",
   " a scroll of pedigree",
-  " a purse containing 25 gp"
+  " a purse containing 25 gp "
 ];
 
 var outlander = [
@@ -62,7 +62,7 @@ var outlander = [
   " a hunting trap",
   " a trophy from an animal you killed",
   " a set of traveler's clothes",
-  " a pouch containing 10 gp"
+  " a pouch containing 10 gp "
 ];
 
 var sage = [
@@ -71,7 +71,7 @@ var sage = [
   " a small knife",
   " a letter from a dead colleague posing a question you have not yet been able to answer",
   " a set of common clothes",
-  " a pouch containing 10 gp"
+  " a pouch containing 10 gp "
 ];
 
 var sailor = [
@@ -79,7 +79,7 @@ var sailor = [
   " 50 feet of silk rope",
   " a lucky charm",
   " a set of common clothes",
-  " a pouch containing 10 gp"
+  " a pouch containing 10 gp "
 ];
 
 var soldier = [
@@ -87,7 +87,7 @@ var soldier = [
   " a trophy taken from a fallen enemy",
   " a set of bone dice or deck of cards",
   " a set of common clothes",
-  " a pouch containing 10 gp"
+  " a pouch containing 10 gp "
 ];
 
 var urchin = [
@@ -96,5 +96,5 @@ var urchin = [
   " a pet mouse",
   " a token to remember your parents by",
   " a set of common clothes",
-  " a pouch containing 10 gp"
+  " a pouch containing 10 gp "
 ];
