@@ -9,82 +9,82 @@ $(document).ready(function() {
     //alert(classes); bug testing
     switch(classes) {
       case "barbarian.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.barbarian').removeClass('hidden');
         $('.barbarian').addClass('show');
         $('.default').text("An explorer's pack and four javelins");
         break;
       case "bard.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.bard').removeClass('hidden');
         $('.bard').addClass('show');
         $('.bard').prependTo($('.choices'));
         $('.default').text("leather armor and a dagger");
         break;
       case "cleric.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.cleric').removeClass('hidden');
         $('.cleric').addClass('show');
         $('.cleric').prependTo($('.choices'));
         $('.default').text("A shield and a holy symbol");
         break;
       case "druid.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.druid').removeClass('hidden');
         $('.druid').addClass('show');
         $('.druid').prependTo($('.choices'));
         $('.default').text("Leather armor, an explorer's pack, and a druidic focus");
         break;
       case "fighter.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.fighter').removeClass('hidden');
         $('.fighter').addClass('show');
         $('.fighter').prependTo($('.choices'));
         break;
       case "monk.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.monk').removeClass('hidden');
         $('.monk').addClass('show');
         $('.monk').prependTo($('.choices'));
         $('.default').text("10 darts");
         break;
       case "paladin.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.paladin').removeClass('hidden');
         $('.paladin').addClass('show');
         $('.paladin').prependTo($('.choices'));
         $('.default').text("Chain mail and a holy symbol");
         break;
       case "ranger.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.ranger').removeClass('hidden');
         $('.ranger').addClass('show');
         $('.ranger').prependTo($('.choices'));
         $('.default').text("A longbow and a quiver of 20 arrows");
         break;
       case "rogue.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.rogue').removeClass('hidden');
         $('.rogue').addClass('show');
         $('.rogue').prependTo($('.choices'));
         $('.default').text("Leather armor, two daggers, and thieves' tools");
         break;
       case "sorcerer.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.sorcerer').removeClass('hidden');
         $('.sorcerer').addClass('show');
         $('.sorcerer').prependTo($('.choices'));
         $('.default').text("Two daggers");
         break;
       case "warlock.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.warlock').removeClass('hidden');
         $('.warlock').addClass('show');
         $('.warlock').prependTo($('.choices'));
         $('.default').text("leather armor, any simple weapon, and two daggers");
         break;
       case "wizard.png":
-        $('form').addClass('hidden');
+        $('.classes').addClass('hidden');
         $('.wizard').removeClass('hidden');
         $('.wizard').addClass('show');
         $('.wizard').prependTo($('.choices'));
@@ -163,6 +163,13 @@ $(document).ready(function() {
   });
 
 
+  //local storage attempt
+  $('.form-inline').submit(function() {
+    var equipmentList = $('.equip-show, .default, .choice1, .choice2, .choice3, .choice4').text();
+    var character = $('#characterName').val();
+    localStorage.setItem(character, equipmentList);
+    
+  });
 
 
 
