@@ -166,7 +166,6 @@ $(document).ready(function() {
 
   $('.form-inline').submit(function() {
     if ($('#characterName').val() !== "") {
-      console.log($("#characterName").val());
       var equipmentList = $('.equip-show, .default, .choice1, .choice2, .choice3, .choice4').text();
       var character = $('#characterName').val();
       localStorage.setItem(character, equipmentList);
