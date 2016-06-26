@@ -40,6 +40,7 @@ $(document).ready(function() {
         $('.fighter').removeClass('hidden');
         $('.fighter').addClass('show');
         $('.fighter').prependTo($('.choices'));
+        $('.default').text('');
         break;
       case "monk.png":
         $('.classes').addClass('hidden');
@@ -165,9 +166,18 @@ $(document).ready(function() {
 
   //local storage attempt
   $('.form-inline').submit(function() {
-    var equipmentList = $('.equip-show, .default, .choice1, .choice2, .choice3, .choice4').text();
-    var character = $('#characterName').val();
-    localStorage.setItem(character, equipmentList);
+    if ($('#characterName').val() !== "") {
+      console.log($("#characterName").val());
+      var equipmentList = $('.equip-show, .default, .choice1, .choice2, .choice3, .choice4').text();
+      var character = $('#characterName').val();
+      localStorage.setItem(character, equipmentList);
+
+    }
+    else {
+      $('.name-error').text("Please give your character a name");
+
+      return false
+    }
 
   });
 

@@ -136,7 +136,7 @@
             <br>
           </form>
           <form class="hidden druid classes">
-            <input type="radio" name="equipment1" value="a shield" >A wooden shield<br>
+            <input type="radio" name="equipment1" value="a wooden shield" >A wooden shield<br>
             <input type="radio" name="equipment1" value="any simple weapon">Any simple weapon<br>
             <br>
             <br>
@@ -304,7 +304,7 @@
       <div class="col-md-4">
         <div class="equipment-list">
           <h2>Your Equpment</h2>
-          <p class="equip-show">A holy symbol, A prayer book or prayer wheel, 5 sticks of incense,, vestments, A set of common clothes, A pouch containing 15 gp</p>
+          <p class="equip-show">A holy symbol, a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, a pouch containing 15 gp</p>
           <p class="default">An explorer's pack and four javelins</p>
           <p class="choice1"></p>
           <P class="choice2"></p>
@@ -313,14 +313,23 @@
         </div>
       </div>
     </div>
-  </div>
-  <form class="form-inline">
-    <div class="form-group">
-      <label class="sr-only" for="characterName">Character name</label>
-      <input type="text" class="form-control" id="characterName" placeholder="Enter your character's name">
+    <div class="row">
+      <div class="col-md-12">
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="characterName">Character name</label>
+            <input type="text"  id="characterName" placeholder="Enter your character's name">
+            </div>
+            <button type="submit" class="btn btn-primary">Save character</button>
+            <p class="name-error"></p>
+
+          </form>
+
       </div>
-      <button type="submit" class="btn btn-primary">Save character</button>
-    </form>
+    </div>
+  </div>
+
+
   <div class="footer">
     <div class="pull-right">
       <p>David Chase</p>

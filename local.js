@@ -14,8 +14,11 @@ s.appendTo('#char-select');
 $(document).ready(function () {
   var ls = $('.saved-drop').val()
   var save = localStorage.getItem(ls)
-  $('.load-list').text(save);
-  
+  if (localStorage.getItem(ls) !== null) {
+    $('.load-list').text(save);
+  }
+
+
 
 });
 

@@ -1,7 +1,7 @@
 var acolyte = [
   "A holy symbol",
   " a prayer book or prayer wheel",
-  " 5 sticks of incense,",
+  " 5 sticks of incense",
   " vestments",
   " a set of common clothes",
   " a pouch containing 15 gp "

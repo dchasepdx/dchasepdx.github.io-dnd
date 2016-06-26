@@ -68,6 +68,10 @@ select{
   display: inline;
 }
 
+.container {
+  padding-bottom: 20px;
+}
+
 .col-md-4 h2 {
   margin: 0;
 }
@@ -84,13 +88,28 @@ select{
   border: 1px solid black;
 
 }
-/*don't think I need this
-.bard {
-  margin-top:0;
-}*/
 
-.form-control {
-  width: 300px;
+.col-md-12 {
+  padding: 30px 30px 30px 15px;
+}
+.form-group {
+  width: 200px;
+}
+#characterName {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.submit button {
+  display: inline;
+}
+
+.name-error {
+  color: red;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-bottom: 0;
+  display: inline;
 }
 
 .footer {
