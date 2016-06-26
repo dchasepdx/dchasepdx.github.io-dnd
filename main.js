@@ -164,7 +164,6 @@ $(document).ready(function() {
   });
 
 
-  //local storage attempt
   $('.form-inline').submit(function() {
     if ($('#characterName').val() !== "") {
       console.log($("#characterName").val());
@@ -178,9 +177,7 @@ $(document).ready(function() {
 
       return false
     }
-
   });
-
 
 
 
@@ -188,6 +185,4 @@ $(document).ready(function() {
   $('select').on('change', function() {
     alert(typeof this.value)
   });*/
-
-
 });
